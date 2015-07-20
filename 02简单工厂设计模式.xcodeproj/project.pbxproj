@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC84923F1B4124AA008CB160 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC84923E1B4124AA008CB160 /* main.m */; };
+		BC8492471B4124E4008CB160 /* Pers.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8492461B4124E4008CB160 /* Pers.m */; };
+		BC84924A1B4126B1008CB160 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8492491B4126B1008CB160 /* Student.m */; };
+		BC84924D1B4127E9008CB160 /* Police.m in Sources */ = {isa = PBXBuildFile; fileRef = BC84924C1B4127E9008CB160 /* Police.m */; };
+		BC8492501B412AC1008CB160 /* PersonFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = BC84924F1B412AC1008CB160 /* PersonFactory.m */; };
+		BC8492531B4132E9008CB160 /* XStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8492521B4132E9008CB160 /* XStudent.m */; };
+		BC8492561B413347008CB160 /* XPolice.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8492551B413347008CB160 /* XPolice.m */; };
+		BC8492591B4133A4008CB160 /* XmanFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8492581B4133A4008CB160 /* XmanFactory.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BC8492391B4124AA008CB160 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BC84923B1B4124AA008CB160 /* 02简单工厂设计模式 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "02简单工厂设计模式"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC84923E1B4124AA008CB160 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BC8492451B4124E4008CB160 /* Pers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pers.h; sourceTree = "<group>"; };
+		BC8492461B4124E4008CB160 /* Pers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pers.m; sourceTree = "<group>"; };
+		BC8492481B4126B1008CB160 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		BC8492491B4126B1008CB160 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		BC84924B1B4127E9008CB160 /* Police.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Police.h; sourceTree = "<group>"; };
+		BC84924C1B4127E9008CB160 /* Police.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Police.m; sourceTree = "<group>"; };
+		BC84924E1B412AC1008CB160 /* PersonFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonFactory.h; sourceTree = "<group>"; };
+		BC84924F1B412AC1008CB160 /* PersonFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonFactory.m; sourceTree = "<group>"; };
+		BC8492511B4132E9008CB160 /* XStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XStudent.h; sourceTree = "<group>"; };
+		BC8492521B4132E9008CB160 /* XStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XStudent.m; sourceTree = "<group>"; };
+		BC8492541B413347008CB160 /* XPolice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPolice.h; sourceTree = "<group>"; };
+		BC8492551B413347008CB160 /* XPolice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPolice.m; sourceTree = "<group>"; };
+		BC8492571B4133A4008CB160 /* XmanFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XmanFactory.h; sourceTree = "<group>"; };
+		BC8492581B4133A4008CB160 /* XmanFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XmanFactory.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC8492381B4124AA008CB160 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC8492321B4124AA008CB160 = {
+			isa = PBXGroup;
+			children = (
+				BC84923D1B4124AA008CB160 /* 02简单工厂设计模式 */,
+				BC84923C1B4124AA008CB160 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC84923C1B4124AA008CB160 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC84923B1B4124AA008CB160 /* 02简单工厂设计模式 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC84923D1B4124AA008CB160 /* 02简单工厂设计模式 */ = {
+			isa = PBXGroup;
+			children = (
+				BC84923E1B4124AA008CB160 /* main.m */,
+				BC8492451B4124E4008CB160 /* Pers.h */,
+				BC8492461B4124E4008CB160 /* Pers.m */,
+				BC84924E1B412AC1008CB160 /* PersonFactory.h */,
+				BC84924F1B412AC1008CB160 /* PersonFactory.m */,
+				BC8492511B4132E9008CB160 /* XStudent.h */,
+				BC8492521B4132E9008CB160 /* XStudent.m */,
+				BC8492541B413347008CB160 /* XPolice.h */,
+				BC8492551B413347008CB160 /* XPolice.m */,
+				BC8492571B4133A4008CB160 /* XmanFactory.h */,
+				BC8492581B4133A4008CB160 /* XmanFactory.m */,
+				BC8492481B4126B1008CB160 /* Student.h */,
+				BC8492491B4126B1008CB160 /* Student.m */,
+				BC84924B1B4127E9008CB160 /* Police.h */,
+				BC84924C1B4127E9008CB160 /* Police.m */,
+			);
+			path = "02简单工厂设计模式";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC84923A1B4124AA008CB160 /* 02简单工厂设计模式 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC8492421B4124AA008CB160 /* Build configuration list for PBXNativeTarget "02简单工厂设计模式" */;
+			buildPhases = (
+				BC8492371B4124AA008CB160 /* Sources */,
+				BC8492381B4124AA008CB160 /* Frameworks */,
+				BC8492391B4124AA008CB160 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "02简单工厂设计模式";
+			productName = "02简单工厂设计模式";
+			productReference = BC84923B1B4124AA008CB160 /* 02简单工厂设计模式 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC8492331B4124AA008CB160 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = qianfeng;
+				TargetAttributes = {
+					BC84923A1B4124AA008CB160 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = BC8492361B4124AA008CB160 /* Build configuration list for PBXProject "02简单工厂设计模式" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BC8492321B4124AA008CB160;
+			productRefGroup = BC84923C1B4124AA008CB160 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC84923A1B4124AA008CB160 /* 02简单工厂设计模式 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC8492371B4124AA008CB160 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC8492561B413347008CB160 /* XPolice.m in Sources */,
+				BC84923F1B4124AA008CB160 /* main.m in Sources */,
+				BC8492471B4124E4008CB160 /* Pers.m in Sources */,
+				BC84924A1B4126B1008CB160 /* Student.m in Sources */,
+				BC8492591B4133A4008CB160 /* XmanFactory.m in Sources */,
+				BC84924D1B4127E9008CB160 /* Police.m in Sources */,
+				BC8492531B4132E9008CB160 /* XStudent.m in Sources */,
+				BC8492501B412AC1008CB160 /* PersonFactory.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BC8492401B4124AA008CB160 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BC8492411B4124AA008CB160 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BC8492431B4124AA008CB160 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BC8492441B4124AA008CB160 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC8492361B4124AA008CB160 /* Build configuration list for PBXProject "02简单工厂设计模式" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC8492401B4124AA008CB160 /* Debug */,
+				BC8492411B4124AA008CB160 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC8492421B4124AA008CB160 /* Build configuration list for PBXNativeTarget "02简单工厂设计模式" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC8492431B4124AA008CB160 /* Debug */,
+				BC8492441B4124AA008CB160 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC8492331B4124AA008CB160 /* Project object */;
+}
